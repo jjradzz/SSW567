@@ -1,0 +1,7 @@
+language: python
+python:
+  - "3.8"
+install:
+  - pip install requests
+script:
+  - cd GitHubApi567 && python -m unittest test_github_api.py -v
